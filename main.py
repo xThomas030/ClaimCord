@@ -21,10 +21,7 @@ from typing import Optional
 USERNAMES_FILE = "usernames.txt"
 
 # Fallback list — only used when USERNAMES_FILE is None or missing
-USERNAMES = [
-    "shadow",
-    "blaze",
-    "neoncat",
+
     # Add more usernames here if you want, or put them in the file specified by USERNAMES_FILE
 ]
 
@@ -43,7 +40,7 @@ PROXIES = [
 ]
 
 # Delay between requests in seconds (applied regardless of proxies)
-REQUEST_DELAY = 1.0
+REQUEST_DELAY = 0.1
 
 # How many times to retry a single username before giving up
 MAX_RETRIES = 3
