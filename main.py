@@ -43,7 +43,7 @@ PROXIES = [
 ]
 
 # Delay between requests in seconds (applied regardless of proxies)
-REQUEST_DELAY = 1.0
+REQUEST_DELAY = 0.1
 
 # How many times to retry a single username before giving up
 MAX_RETRIES = 3
